@@ -63,6 +63,8 @@
                 android:textStyle="bold"></TextView>
 
             <EditText
+                android:padding="10dp"
+                android:id="@+id/firstnameEt"
                 android:layout_width="300dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="5dp"
@@ -79,9 +81,11 @@
                 android:textStyle="bold"></TextView>
 
             <EditText
+                android:id="@+id/emailEt"
                 android:layout_width="300dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="5dp"
+                android:padding="10dp"
                 android:background="@drawable/rounded_et_blue">
 
             </EditText>
@@ -103,8 +107,10 @@
                 android:textStyle="bold"></TextView>
 
             <EditText
+                android:id="@+id/lastNameEt"
                 android:layout_width="300dp"
                 android:layout_height="40dp"
+                android:padding="10dp"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/rounded_et_blue">
 
@@ -119,9 +125,12 @@
                 android:textStyle="bold"></TextView>
 
             <EditText
+                android:inputType="number"
+                android:id="@+id/phoneEt"
                 android:layout_width="300dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="5dp"
+                android:padding="10dp"
                 android:background="@drawable/rounded_et_blue">
 
             </EditText>
@@ -153,9 +162,11 @@
                 android:textStyle="bold"></TextView>
 
             <EditText
+                android:id="@+id/companyEt"
                 android:layout_width="780dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="5dp"
+                android:padding="10dp"
                 android:background="@drawable/rounded_et_blue">
 
             </EditText>
@@ -194,9 +205,11 @@
                     android:textStyle="bold"></TextView>
 
                 <EditText
+                    android:id="@+id/countryEt"
                     android:layout_width="250dp"
                     android:layout_height="40dp"
                     android:layout_marginTop="5dp"
+                    android:padding="10dp"
                     android:background="@drawable/rounded_et_blue">
 
                 </EditText>
@@ -219,9 +232,11 @@
                     android:textStyle="bold"></TextView>
 
                 <EditText
+                    android:id="@+id/cityEt"
                     android:layout_width="250dp"
                     android:layout_height="40dp"
                     android:layout_marginTop="5dp"
+                    android:padding="10dp"
                     android:background="@drawable/rounded_et_blue">
 
                 </EditText>
@@ -245,9 +260,11 @@
                     android:textStyle="bold"></TextView>
 
                 <EditText
+                    android:id="@+id/postalCodeEt"
                     android:layout_width="250dp"
                     android:layout_height="40dp"
                     android:layout_marginTop="5dp"
+                    android:padding="10dp"
                     android:background="@drawable/rounded_et_blue">
 
                 </EditText>
@@ -290,9 +307,12 @@
                     android:textStyle="bold"></TextView>
 
                 <EditText
+                    android:id="@+id/passwordEt"
                     android:layout_width="300dp"
                     android:layout_height="40dp"
                     android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:inputType="textPassword"
                     android:background="@drawable/rounded_et_blue">
 
                 </EditText>
@@ -316,9 +336,12 @@
                     android:textStyle="bold"></TextView>
 
                 <EditText
+                    android:id="@+id/confirmPasswordEt"
                     android:layout_width="300dp"
                     android:layout_height="40dp"
                     android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:inputType="textPassword"
                     android:background="@drawable/rounded_et_blue">
 
                 </EditText>
